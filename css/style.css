@@ -117,3 +117,9 @@ div.blue a{
 input, .bgwhite div {
   margin-bottom: 9px;
 }
+
+.ms_bordedleft li{
+  border-left: 1px solid grey;
+  padding: 5px;
+  font-size: 17px;
+}
