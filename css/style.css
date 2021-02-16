@@ -7,3 +7,99 @@ body{
   min-height: 100px;
   border: solid 1px #000;
 }
+
+ul {
+  list-style-type: none;
+}
+
+.navbar-default {
+  background-color: white;
+  border: 0px;
+  padding-top: 20px;
+}
+
+.navbar-header img{
+  width: 100px;
+}
+
+.navbar-right li:last-child{
+  border: 1px solid blue;
+  border-radius: 5px;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: black;
+}
+
+.navbar-right li:last-child a{
+  color: blue;
+}
+
+.navbar-brand {
+  padding: 5px 10px;
+  margin-right: 50px;
+}
+
+.nav>li>a {
+  position: relative;
+  display: block;
+  padding: 5px 10px;
+}
+
+.jumbotron{
+  background-image: url("../img/jumbo.svg");
+  background-size: cover;
+}
+
+.bgwhite{
+  background-color: white;
+  border-radius: 5px;
+}
+
+.jumbotron h1, .jumbotron p{
+  color: white;
+}
+
+.jumbotron h3{
+  text-align: center;
+}
+
+.ms_titleform span{
+  color: blue;
+}
+
+div.caption a{
+  color: blue;
+  text-decoration: underline;
+}
+
+.tac{
+  text-align: center;
+}
+
+.abtn{
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.abtn a{
+  color: black;
+}
+
+.abtn a img{
+  text-align: left;
+  width: 19px;
+}
+
+div.blue{
+  background-color: blue;
+}
+
+div.blue a{
+  color: white;
+}
+
+input, .bgwhite div{
+  margin-bottom: 5px;
+}
