@@ -12,6 +12,10 @@ ul {
   list-style-type: none;
 }
 
+a {
+    color: #78BBFF;
+}
+
 .navbar-default {
   background-color: white;
   border: 0px;
@@ -122,4 +126,22 @@ input, .bgwhite div {
   border-left: 1px solid grey;
   padding: 5px;
   font-size: 17px;
+}
+
+.ms_carousel img{
+  max-width: 60%;
+}
+
+.ms_btn{
+  color: #333;
+  background-color: #f3f5f9;
+  font-size: 30px;
+}
+
+.bluedot{
+  color: #0069FF;
+}
+
+a i.fa-circle{
+  padding: 0 2px;
 }
