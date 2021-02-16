@@ -49,11 +49,21 @@ ul {
 .jumbotron{
   background-image: url("../img/jumbo.svg");
   background-size: cover;
+  margin-bottom: 0;
+}
+
+.bggrey{
+  background-color: #f3f5f9;
+}
+
+.ms_margintb{
+  margin: 40px 0;
 }
 
 .bgwhite{
   background-color: white;
   border-radius: 5px;
+  margin-bottom: 10px
 }
 
 .jumbotron h1, .jumbotron p{
@@ -66,6 +76,10 @@ ul {
 
 .ms_titleform span{
   color: blue;
+}
+
+.caption{
+  padding: 3px;
 }
 
 div.caption a{
@@ -88,8 +102,8 @@ div.caption a{
 }
 
 .abtn a img{
-  text-align: left;
   width: 19px;
+  margin-right: 82px;
 }
 
 div.blue{
@@ -100,6 +114,6 @@ div.blue a{
   color: white;
 }
 
-input, .bgwhite div{
-  margin-bottom: 5px;
+input, .bgwhite div {
+  margin-bottom: 9px;
 }
