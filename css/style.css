@@ -4,7 +4,7 @@ body{
 }
 
 [class*="col-"]{
-  min-height: 100px;
+  min-height: 50px;
   border: solid 1px #000;
 }
 
@@ -58,6 +58,10 @@ a {
 
 .bggrey{
   background-color: #f3f5f9;
+}
+
+.bgblue{
+  background-color: #3372B4;
 }
 
 .ms_margintb{
@@ -144,4 +148,47 @@ input, .bgwhite div {
 
 a i.fa-circle{
   padding: 0 2px;
+  font-size: 8px;
+}
+
+div.bgblue h2{
+  color: white;
+}
+
+.divlist{
+  border-bottom: 1px solid white;
+}
+
+div.divlist span, div.divlist a{
+  line-height: 50px;
+  margin: auto 0;
+  padding: 10px;
+}
+
+.bgwhite2{
+  display: inline-block;
+  background-color: white;
+  padding: 0 10px;
+}
+
+.bgwhite2 img{
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.ms_btn2 span.glyphicon {
+  color: #333;
+  background-color: #f3f5f9;
+  font-size: 30px;
+  position: relative;
+  top: -60px;
+}
+
+.fixa{
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.getstarted button{
+  color: #78BBFF;
 }
